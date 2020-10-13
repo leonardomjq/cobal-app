@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137" height="40" viewBox="0 0 137 40">
+  <defs>
+    <clipPath id="clip-logo">
+      <rect width="137" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="logo" clip-path="url(#clip-logo)">
+    <g id="Logo-2" data-name="Logo" transform="translate(-373 -6597)">
+      <text id="Cobal" transform="translate(414 6626)" fill="#fff" font-size="28" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Cobal</tspan></text>
+      <g id="Vector_Smart_Object3" data-name="Vector Smart Object3" transform="translate(347.576 6589.327)">
+        <g id="Grupo_2" data-name="Grupo 2" transform="matrix(0.208, -0.978, 0.978, 0.208, 7.816, 63.998)">
+          <path id="Caminho_9" data-name="Caminho 9" d="M34.527,41.3l10.7-6.276H41.893L34.231,38.67Z" fill="#fff"/>
+          <path id="Caminho_10" data-name="Caminho 10" d="M45.229,35.027V36.4l-10.7,6.276V41.022Z" fill="#fff"/>
+          <path id="Caminho_11" data-name="Caminho 11" d="M27.424,42.673h7.1L45.583,23.266l-.348-11.593Z" fill="#fff"/>
+          <path id="Caminho_12" data-name="Caminho 12" d="M45.182,23.969l.053-12.3L59.424,36.418H52.3Z" fill="#fff"/>
+          <path id="Caminho_13" data-name="Caminho 13" d="M45.235,11.673v2.5l8.888,13Z" fill="#fff"/>
+          <path id="Caminho_14" data-name="Caminho 14" d="M45.247,11.673v2.5l-8.888,13Z" fill="#fff"/>
+          <path id="Caminho_15" data-name="Caminho 15" d="M43.153,32.563h2.029V29.025Z" fill="#fff"/>
+          <path id="Caminho_16" data-name="Caminho 16" d="M45.182,29.025v3.538h2.029Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

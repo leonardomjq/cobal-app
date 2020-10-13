@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1840" height="543" viewBox="0 0 1840 543">
+  <defs>
+    <clipPath id="clip-circle-footer">
+      <rect width="1840" height="543"/>
+    </clipPath>
+  </defs>
+  <g id="circle-footer" clip-path="url(#clip-circle-footer)">
+    <g id="Footer" transform="translate(-79 -7713)">
+      <g id="Grupo_610" data-name="Grupo 610" opacity="0.2">
+        <circle id="Elipse_13" data-name="Elipse 13" cx="48.753" cy="48.753" r="48.753" transform="translate(1857.539 7845.971) rotate(-150)" fill="#fff"/>
+        <circle id="Elipse_12" data-name="Elipse 12" cx="48.753" cy="48.753" r="48.753" transform="translate(98 8118.794)" fill="#fff"/>
+        <circle id="Elipse_14" data-name="Elipse 14" cx="30.235" cy="30.235" r="30.235" transform="translate(157.713 8039.428)" fill="#fff"/>
+        <circle id="Elipse_15" data-name="Elipse 15" cx="30.235" cy="30.235" r="30.235" transform="translate(210.624 8181.531)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

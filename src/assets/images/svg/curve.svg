@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="3378" viewBox="0 0 1920 3378">
+  <defs>
+    <clipPath id="clip-curve">
+      <rect width="1920" height="3378"/>
+    </clipPath>
+  </defs>
+  <g id="curve" clip-path="url(#clip-curve)">
+    <path id="Caminho_459" data-name="Caminho 459" stroke="#5a52eb" d="M3333.811,1555.779s539.76,306.922,321.033,814.932-769.069,21.167-892.544,490.37,299.866,984.268,793.764,1118.326,119.947,1061.881-458.619,889.017" fill="none" transform="translate(-2303 -1534.199)" stroke-linecap="round" stroke-width="5" stroke-dasharray="10 15" opacity="0.13"/>
+  </g>
+</svg>

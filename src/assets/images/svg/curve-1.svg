@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="501" viewBox="0 0 1920 501">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4c84ff"/>
+      <stop offset="1" stop-color="#783dff"/>
+    </linearGradient>
+    <clipPath id="clip-curve-1">
+      <rect width="1920" height="501"/>
+    </clipPath>
+  </defs>
+  <g id="curve-1" clip-path="url(#clip-curve-1)">
+    <path id="Shape_865" data-name="Shape 865" d="M1920.9,5978.995c-139.351,14.684-154.015,136.948-288.963,140.755-132,3.721-177.586-111.173-308.533-106.257-133.948,5.029-158.735,127.973-292.535,132.474-128.895,4.338-175.331-107.418-303.963-100.735-120.093,6.24-141.9,106.887-262.825,109.016-96.527,1.7-126.9-61.649-235.4-69-101.466-6.872-167.405,40.5-227.683,80.037V6479H1921" transform="translate(-1 -5979)" opacity="0.83" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
