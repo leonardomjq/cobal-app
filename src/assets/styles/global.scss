@@ -1,0 +1,48 @@
+:root {
+  --color-background: #ffffff;
+  --color-primary: #5851EA;
+
+  --color-button-primary: #5851EA;
+  --color-text-in-button-primary: #ffffff; 
+
+  --color-button-light: #ffffff;
+  --color-text-in-button-light: #5851EA;
+
+  --color-text-primary: #5851EA;
+  --color-text-light: #ffffff;
+  --color-text-dark: #000000;
+  --color-text-darkish: #616161;
+
+  /* Makes font be 9.6px, for mobile */
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* makes page always have total height */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: var(--color-background);
+}
+
+body,
+input,
+button {
+  font: 500 1.6rem Poppins;
+  color: var(--color-text-dark);
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
