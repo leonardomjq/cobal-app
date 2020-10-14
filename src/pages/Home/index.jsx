@@ -1,10 +1,14 @@
 import React from 'react';
 import Header from '../../components/Header'
+import AugumentedReality from '../../components/Section/Augmented'
 
 function Home() {
   return (
-  <Header />
-)
+    <>
+      <Header />
+      <AugumentedReality />
+    </>
+  )
 }
 
 export default Home;

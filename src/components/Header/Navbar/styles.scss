@@ -1,0 +1,22 @@
+nav {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    height: 30px;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-item .link {
+    margin: 0 15px;
+    color: var(--color-text-light);
+    text-decoration: none;
+  }
+}

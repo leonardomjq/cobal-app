@@ -1,0 +1,30 @@
+.container {
+  height: 110vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+
+  .top-wrapper {
+    width: 600px;
+    margin-top: 110px;
+
+    hr {
+      width: 45px;
+      margin: auto;
+      border: 0.5px solid var(--color-primary);
+    }
+
+    p {
+      color: var(--color-text-darkish);
+      font-weight: 400;
+      font-size: 12px;
+      text-align: center;
+      padding-top: 25px;
+    }
+  }
+
+  .grid {
+  }
+}
