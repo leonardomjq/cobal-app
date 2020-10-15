@@ -9,7 +9,7 @@ function Routes() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={Home} />
-      <Route path="/registration" component={Registration} />
+      <Route path="/register" component={Registration} />
       <Route path="/team" component={Team} />
     </BrowserRouter>
   );

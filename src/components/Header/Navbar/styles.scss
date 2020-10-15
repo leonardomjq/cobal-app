@@ -9,14 +9,26 @@ nav {
     height: 30px;
   }
 
-  .nav-links {
+  ul {
     list-style: none;
     display: flex;
+    align-items: center;
   }
 
-  .nav-item .link {
-    margin: 0 15px;
+  li a {
+    margin: 0 13px;
     color: var(--color-text-light);
     text-decoration: none;
+    font-size: 11px;
+  }
+
+  .prop-button a {
+    padding: 7px 15px;
+    background-color: var(--color-button-light);
+    outline: none;
+    cursor: pointer;
+    color: var(--color-text-primary);
+    border: none;
+    border-radius: 25px;
   }
 }

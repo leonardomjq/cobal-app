@@ -1,0 +1,80 @@
+footer {
+  height: 70vh;
+  background-color: var(--color-primary);
+  background-image: url('../../assets/images/svg/circle-footer.svg'),
+    url('../../assets/images/svg/curve-1.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 1000px;
+    height: 350px;
+    padding: 25px 0 0 40px;
+
+    .inner-container {
+      display: grid;
+      height: 200px;
+      grid-template-columns: 1fr 20% 20% 20%;
+
+      @media (max-width: 768px) {
+        grid-template-columns: auto;
+      }
+
+      h3 {
+        color: var(--color-text-light);
+        margin-bottom: 20px;
+        font-size: 15px;
+      }
+
+      li {
+        list-style: none;
+        padding: 2px 0;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 11px;
+        color: var(--color-text-light);
+      }
+    }
+
+    .logo-wrap {
+      word-wrap: break-word;
+      width: 280px;
+
+      p {
+        color: var(--color-text-light);
+      }
+
+      .logo {
+        width: 110px;
+        margin-bottom: 10px;
+      }
+
+      .icons {
+        margin-top: 20px;
+
+        img {
+          margin-right: 35px;
+        }
+      }
+    }
+  }
+
+  hr {
+    margin-top: 15px;
+    width: 95%;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: var(--color-text-light);
+  }
+}

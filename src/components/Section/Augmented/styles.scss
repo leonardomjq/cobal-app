@@ -1,30 +1,99 @@
-.container {
-  height: 110vh;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  // justify-content: center;
-  align-items: center;
+.wrapper {
+  background-image: url('../../../assets/images/svg/curve.svg');
+  background-size: cover;
+  background-position: 100% 100%;
 
-  .top-wrapper {
-    width: 600px;
-    margin-top: 110px;
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background-light);
 
-    hr {
-      width: 45px;
-      margin: auto;
-      border: 0.5px solid var(--color-primary);
+    .top-wrapper {
+      width: 600px;
+      margin-top: 100px;
+
+      hr {
+        width: 45px;
+        margin: auto;
+        border: 0.5px solid var(--color-primary);
+      }
+
+      p {
+        color: var(--color-text-darkish);
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        padding-top: 25px;
+      }
     }
 
-    p {
-      color: var(--color-text-darkish);
-      font-weight: 400;
-      font-size: 12px;
-      text-align: center;
-      padding-top: 25px;
-    }
-  }
+    .grid {
+      display: grid;
+      grid-template-columns: 50% 50%;
 
-  .grid {
+      @media (max-width: 768px) {
+        grid-template-columns: auto;
+      }
+
+      img {
+        width: 100%;
+        max-height: 100%;
+      }
+
+      .middle-wrapper {
+        padding-left: 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 500px;
+
+        .inner-wrapper {
+        }
+
+        .flex {
+          display: flex;
+          margin: 15px 0;
+
+          hr {
+            width: 20px;
+            margin-right: 5px;
+            border: 1px solid var(--color-primary);
+          }
+
+          :nth-of-type(2) {
+            width: 50px;
+          }
+        }
+
+        h2 {
+          font-size: 25px;
+          font-weight: 500;
+          letter-spacing: 3px;
+        }
+
+        p {
+          color: var(--color-text-darkish);
+          font-size: 13px;
+          line-height: 20px;
+          font-weight: 400;
+        }
+
+        button {
+          color: var(--color-text-in-button-primary);
+          background-color: var(--color-button-primary);
+          margin-top: 40px;
+          font-size: 12px;
+          padding: 12px 40px;
+          outline: none;
+          cursor: pointer;
+          border: none;
+          border-radius: 25px;
+          box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
   }
 }
