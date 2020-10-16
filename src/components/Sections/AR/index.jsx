@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.scss'
-import VR from "../../../assets/images/svg/img-landing.svg"
+import AR from "../../../assets/images/svg/img-landing.svg"
+import PrimaryButton from '../../Buttons/PrimaryColor'
 
 export default function Augmented() {
   return (
@@ -13,7 +14,7 @@ export default function Augmented() {
           </p>
         </div>
         <div className="grid">
-          <img src={VR} alt="illustration of four people using a virtual reality headset" />
+          <img src={AR} alt="illustration of four people using a virtual reality headset" />
           <div className="middle-wrapper">
             <div className="inner-wrapper">
               <h2>Augmented Reality</h2>
@@ -22,7 +23,7 @@ export default function Augmented() {
                 <hr />
               </div>
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut recusandae odit voluptates reiciendis enim? Necessitatibus voluptas in aliquid ex repellendus fuga atque perferendis molestiae nemo neque quia alias, libero rem?</p>
-              <button>LEARN MORE</button>
+              <PrimaryButton>LEARN MORE</PrimaryButton>
             </div>
           </div>
         </div>

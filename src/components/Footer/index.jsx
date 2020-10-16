@@ -17,40 +17,40 @@ export default function Footer() {
             <img src={Logo} alt="Cobal App logo" className="logo" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque id exercitationem dolore voluptates rerum! Natus quidem molestias nesciunt.</p>
             <div className="icons">
-              <Link><img src={Facebook} alt="" /></Link>
-              <Link><img src={Twitter} alt="" /></Link>
-              <Link><img src={Dribbble} alt="" /></Link>
-              <Link><img src={Linkedin} alt="" /></Link>
+              <Link to="/"><img src={Facebook} alt="" /></Link>
+              <Link to="/"><img src={Twitter} alt="" /></Link>
+              <Link to="/"><img src={Dribbble} alt="" /></Link>
+              <Link to="/"><img src={Linkedin} alt="" /></Link>
             </div>
           </div>
           <div className="company-wrap">
             <ul>
               <h3>Company</h3>
-              <li><Link>Home</Link></li>
-              <li><Link>Features</Link></li>
-              <li><Link>Screenshots</Link></li>
-              <li><Link>Pricing</Link></li>
-              <li><Link>Team</Link></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/">Features</Link></li>
+              <li><Link to="/">Screenshots</Link></li>
+              <li><Link to="/">Pricing</Link></li>
+              <li><Link to="/">Team</Link></li>
             </ul>
           </div>
           <div className="help-wrap">
             <ul>
               <h3>Help</h3>
-              <li><Link>Help Center</Link></li>
-              <li><Link>FAQ's</Link></li>
-              <li><Link>Terms & Conditions</Link></li>
-              <li><Link>Privacy</Link></li>
-              <li><Link>Contacts</Link></li>
+              <li><Link to="/">Help Center</Link></li>
+              <li><Link to="/">FAQ's</Link></li>
+              <li><Link to="/">Terms & Conditions</Link></li>
+              <li><Link to="/">Privacy</Link></li>
+              <li><Link to="/">Contacts</Link></li>
             </ul>
           </div>
           <div className="solutions-wrap">
             <ul>
               <h3>Solutions</h3>
-              <li><Link>Consumer</Link></li>
-              <li><Link>Saas</Link></li>
-              <li><Link>Education</Link></li>
-              <li><Link>Gaming</Link></li>
-              <li><Link>Financial Services</Link></li>
+              <li><Link to="/">Consumer</Link></li>
+              <li><Link to="/">Saas</Link></li>
+              <li><Link to="/">Education</Link></li>
+              <li><Link to="/">Gaming</Link></li>
+              <li><Link to="/">Financial Services</Link></li>
             </ul>
           </div>
         </div>

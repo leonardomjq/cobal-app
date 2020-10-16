@@ -50,7 +50,8 @@
         justify-content: center;
         width: 500px;
 
-        .inner-wrapper {
+        h2 {
+          color: var(--color-text-dark);
         }
 
         .flex {
@@ -79,19 +80,6 @@
           font-size: 13px;
           line-height: 20px;
           font-weight: 400;
-        }
-
-        button {
-          color: var(--color-text-in-button-primary);
-          background-color: var(--color-button-primary);
-          margin-top: 40px;
-          font-size: 12px;
-          padding: 12px 40px;
-          outline: none;
-          cursor: pointer;
-          border: none;
-          border-radius: 25px;
-          box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2);
         }
       }
     }
