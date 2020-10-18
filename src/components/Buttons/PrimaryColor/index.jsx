@@ -4,7 +4,7 @@ import './styles.scss'
 export default function PrimaryColor(props) {
   return (
     <>
-      <button>{props.children}</button>
+      <button onClick={props.submit}>{props.children}</button>
     </>
   )
 }
