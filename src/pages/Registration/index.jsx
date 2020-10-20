@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import Nav from '../../components/Header/Navbar'
-import TeamForm from '../../components/Sections/TeamForm'
+import Form from '../../pages/Registration/Form'
 import Footer from '../../components/Footer'
 
 export default function Registration() {
@@ -13,7 +13,7 @@ export default function Registration() {
           <Link to="/register" className="link">New Employee</Link>
         }
       />
-      <TeamForm />
+      <Form />
       <Footer />
     </div>
   )

@@ -3,10 +3,11 @@ import './styles.scss'
 import { Link } from 'react-router-dom'
 
 import Nav from '../../components/Header/Navbar'
-import TeamDisplay from '../../components/Sections/TeamDisplay'
+import Cards from '../../pages/Team/Cards'
 import Footer from '../../components/Footer'
 
 export default function Team() {
+
   return (
     <div>
       <Nav
@@ -14,7 +15,7 @@ export default function Team() {
           <Link to="/register" className="link">New Employee</Link>
         }
       />
-      <TeamDisplay />
+      <Cards />
       <Footer />
     </div>
   )

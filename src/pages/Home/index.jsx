@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from '../../components/Header'
-import ARSection from '../../components/Sections/AR'
+import AR from '../../pages/Home/AugmentedReality'
 import Footer from '../../components/Footer'
 function Home() {
   return (
     <>
       <Header />
-      <ARSection />
+      <AR />
       <Footer />
     </>
   )

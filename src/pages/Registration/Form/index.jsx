@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './styles.scss'
 
-import Layout from '../../../Layouts/Employee'
-import PrimaryColorButton from "../../Buttons/PrimaryColor"
+import LayoutSection from '../../../Layouts/Employee'
+import PrimaryColorButton from "../../../components/Buttons/PrimaryColor"
 
-export default function NewEmployee() {
+export default function Form() {
   const [employeeId, setEmployeeId] = useState('')
   const [name, setName] = useState('')
   const [birthdate, setBirthdate] = useState('')
@@ -14,23 +14,27 @@ export default function NewEmployee() {
   const [created, setCreated] = useState(new Date())
   const [updated, setUpdated] = useState('')
 
+  const [cardTeam, setCardTeam] = useState([])
 
   const submitValue = () => {
     const formdetails = {
-      'Employee ID': employeeId,
-      'Name': name,
-      'Birthdate': birthdate,
-      'Address': address,
-      'Status': status,
-      'Position': position,
-      'Created': created,
-      'Updated': updated
+      employeeId,
+      name,
+      birthdate,
+      address,
+      status,
+      position,
+      created,
+      updated
     }
-    console.log(formdetails)
+
+    setCardTeam(state => [formdetails, ...state])
+
+    console.log(cardTeam)
   }
 
   return (
-    <Layout title="New Employee">
+    <LayoutSection title="New Employee">
       <div className="outer-form">
         <div className="inner-form">
           <form autoComplete="off">
@@ -53,6 +57,6 @@ export default function NewEmployee() {
           <PrimaryColorButton submit={submitValue}>Submit</PrimaryColorButton>
         </div>
       </div>
-    </Layout>
+    </LayoutSection>
   )
 }

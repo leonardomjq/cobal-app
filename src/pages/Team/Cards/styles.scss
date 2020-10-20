@@ -1,0 +1,23 @@
+.wrapper {
+  width: 70%;
+  border: 1px solid red;
+
+  @media (max-width: 768px) {
+    grid-template-columns: auto;
+    width: 90%;
+  }
+
+  .card-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @media (max-width: 768px) {
+      grid-template-columns: auto;
+    }
+
+    .card {
+      border: 2px solid yellow;
+      margin: 5px;
+    }
+  }
+}

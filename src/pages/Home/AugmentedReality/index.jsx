@@ -1,9 +1,9 @@
 import React from 'react'
 import './styles.scss'
 import AR from "../../../assets/images/svg/img-landing.svg"
-import PrimaryButton from '../../Buttons/PrimaryColor'
+import PrimaryButton from '../../../components/Buttons/PrimaryColor'
 
-export default function Augmented() {
+export default function AugmentedReality() {
   return (
     <div className="wrapper">
       <div className="container">
