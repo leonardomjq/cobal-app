@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './styles.scss'
+
+import { useUserCard } from '../../../context/User'
 
 import LayoutSection from '../../../Layouts/Employee'
 import PrimaryColorButton from "../../../components/Buttons/PrimaryColor"
@@ -11,13 +14,15 @@ export default function Form() {
   const [address, setAddress] = useState('')
   const [status, setStatus] = useState('')
   const [position, setPosition] = useState('')
-  const [created, setCreated] = useState(new Date())
+  const [created, setCreated] = useState(new Date().toLocaleString())
   const [updated, setUpdated] = useState('')
 
-  const [cardTeam, setCardTeam] = useState([])
+  const { userCard, setUserCard } = useUserCard()
 
   const submitValue = () => {
+    const img = 'https://loremflickr.com/320/240/profile,girl/all'
     const formdetails = {
+      img,
       employeeId,
       name,
       birthdate,
@@ -28,9 +33,9 @@ export default function Form() {
       updated
     }
 
-    setCardTeam(state => [formdetails, ...state])
+    setUserCard(state => [formdetails, ...state])
 
-    console.log(cardTeam)
+    console.log(userCard)
   }
 
   return (
@@ -46,7 +51,7 @@ export default function Form() {
             <input type="text" placeholder="Position:" onChange={e => setPosition(e.target.value)} />
             <div className="grid">
               <div>
-                <input disabled type="text" placeholder={`Created: ${new Date()}`} onChange={e => setCreated(e.target.value)} onFocus={e => new Date()} />
+                <input disabled type="text" placeholder={`Created: ${new Date().toLocaleString()}`} onChange={e => setCreated(e.target.value)} />
               </div>
               <div></div>
               <div>
@@ -54,7 +59,9 @@ export default function Form() {
               </div>
             </div>
           </form>
-          <PrimaryColorButton submit={submitValue}>Submit</PrimaryColorButton>
+          <Link to="/team">
+            <PrimaryColorButton submit={submitValue}>Submit</PrimaryColorButton>
+          </Link>
         </div>
       </div>
     </LayoutSection>

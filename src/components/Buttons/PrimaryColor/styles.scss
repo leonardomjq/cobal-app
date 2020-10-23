@@ -1,6 +1,5 @@
 button {
   background-color: var(--color-button-primary);
-  margin-top: 40px;
   font-size: 12px;
   padding: 12px 40px;
   outline: none;
@@ -8,4 +7,9 @@ button {
   border: none;
   border-radius: 25px;
   box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.2);
+
+  @media (max-width: 768px) {
+    padding: 10px 15px;
+    font-size: 10px !important;
+  }
 }

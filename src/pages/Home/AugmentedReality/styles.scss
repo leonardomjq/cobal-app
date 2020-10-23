@@ -1,10 +1,10 @@
-.wrapper {
+#wrapper {
   background-image: url('../../../assets/images/svg/curve.svg');
   background-size: cover;
   background-position: 100% 100%;
 
   .container {
-    height: 100%;
+    min-height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,6 +14,10 @@
     .top-wrapper {
       width: 600px;
       margin-top: 100px;
+
+      @media (max-width: 768px) {
+        width: 90%;
+      }
 
       hr {
         width: 45px;
@@ -41,6 +45,11 @@
       img {
         width: 100%;
         max-height: 100%;
+
+        @media (max-width: 768px) {
+          max-height: 300px;
+          max-width: 400px;
+        }
       }
 
       .middle-wrapper {
@@ -48,7 +57,21 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         width: 500px;
+
+        @media (max-width: 768px) {
+          max-height: 260px;
+          max-width: 300px;
+          padding-left: 0;
+        }
+
+        .inner-wrapper {
+          @media (max-width: 768px) {
+            margin-top: 100px;
+            padding-left: 50px;
+          }
+        }
 
         h2 {
           color: var(--color-text-dark);
@@ -73,6 +96,10 @@
           font-size: 25px;
           font-weight: 500;
           letter-spacing: 3px;
+
+          @media (max-width: 768px) {
+            font-size: 20px;
+          }
         }
 
         p {
@@ -80,6 +107,11 @@
           font-size: 13px;
           line-height: 20px;
           font-weight: 400;
+          padding-bottom: 40px;
+
+          @media (max-width: 768px) {
+            font-size: 10px;
+          }
         }
       }
     }

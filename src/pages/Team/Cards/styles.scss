@@ -1,6 +1,5 @@
 .wrapper {
-  width: 70%;
-  border: 1px solid red;
+  width: 85%;
 
   @media (max-width: 768px) {
     grid-template-columns: auto;
@@ -16,8 +15,71 @@
     }
 
     .card {
-      border: 2px solid yellow;
-      margin: 5px;
+      margin: 15px 15px;
+      padding: 10px 0;
+      background-color: var(--color-background-light);
+      color: var(--color-text-darkish);
+      box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.1);
+
+      .card-heading {
+        padding: 5px 0;
+        display: flex;
+
+        img {
+          margin: 0 40px 0 35px;
+          width: 70px;
+          height: 70px;
+          border-radius: 50%;
+
+          @media (max-width: 768px) {
+            margin: 5px 10px;
+          }
+        }
+
+        .card-heading-inner {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          font-weight: 400;
+
+          h3 {
+            color: rgba(0, 0, 0, 0.7);
+
+            @media (max-width: 768px) {
+              font-size: 15px;
+            }
+          }
+
+          p {
+            @media (max-width: 768px) {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+
+      hr {
+        margin: 15px 0;
+        border: 1px solid rgba(90, 83, 234, 0.4);
+      }
+
+      ul {
+        margin: 3px 0 0 35px;
+        list-style: none;
+        font-weight: 400;
+
+        li {
+          margin: 5px 0;
+
+          @media (max-width: 768px) {
+            font-size: 10px;
+          }
+        }
+
+        strong {
+          padding-left: 5px;
+        }
+      }
     }
   }
 }

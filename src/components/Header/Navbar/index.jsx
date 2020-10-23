@@ -7,7 +7,9 @@ import Logo from '../../../assets/images/svg/logo.svg'
 export default function Navbar(props) {
   return (
     <nav>
-      <img src={Logo} alt="Cobal logo" className='logo' />
+      <div className="logo">
+        <img src={Logo} alt="Cobal logo" />
+      </div>
       <ul>
         <li>
           <Link to="/">Home</Link>

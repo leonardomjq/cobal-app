@@ -5,7 +5,7 @@ import PrimaryButton from '../../../components/Buttons/PrimaryColor'
 
 export default function AugmentedReality() {
   return (
-    <div className="wrapper">
+    <div id="wrapper">
       <div className="container">
         <div className="top-wrapper">
           <hr />
@@ -14,7 +14,9 @@ export default function AugmentedReality() {
           </p>
         </div>
         <div className="grid">
-          <img src={AR} alt="illustration of four people using a virtual reality headset" />
+          <div>
+            <img src={AR} alt="illustration of four people using a virtual reality headset" />
+          </div>
           <div className="middle-wrapper">
             <div className="inner-wrapper">
               <h2>Augmented Reality</h2>
